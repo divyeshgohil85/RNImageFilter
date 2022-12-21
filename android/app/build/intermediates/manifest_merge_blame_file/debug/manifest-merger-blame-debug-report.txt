@@ -1,0 +1,188 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.imagefiltering"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:5:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:6:5-80
+14-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.125.0] /Users/theonetech/.gradle/caches/transforms-3/03f04a3f11198ce3b7c6cedb9b41266b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.125.0] /Users/theonetech/.gradle/caches/transforms-3/03f04a3f11198ce3b7c6cedb9b41266b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+16
+17    <queries>
+17-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+18        <intent>
+18-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+19            <action android:name="android.media.action.IMAGE_CAPTURE" />
+19-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+19-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+20        </intent>
+21    </queries> <!-- Required to access Google Play Licensing -->
+22    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+22-->[:rn-fetch-blob] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+22-->[:rn-fetch-blob] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+23    <!--
+24         Required to keep CPU alive while downloading files
+25        (NOT to keep screen awake)
+26    -->
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[:rn-fetch-blob] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-68
+27-->[:rn-fetch-blob] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:22-65
+28    <!--
+29         Required to poll the state of the network connection
+30        and respond to changes
+31    -->
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->[:rn-fetch-blob] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-79
+32-->[:rn-fetch-blob] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:22-76
+33
+34    <application
+34-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:8:5-27:19
+35        android:name="com.imagefiltering.MainApplication"
+35-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:9:7-38
+36        android:allowBackup="false"
+36-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:13:7-34
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.7.0] /Users/theonetech/.gradle/caches/transforms-3/63a3df243d2d102452600006144a86df/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:11:7-41
+40        android:label="@string/app_name"
+40-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:10:7-39
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:12:7-52
+42        android:testOnly="true"
+43        android:theme="@style/AppTheme"
+43-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:14:7-38
+44        android:usesCleartextTraffic="true" >
+44-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/debug/AndroidManifest.xml:8:9-44
+45        <activity
+45-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/debug/AndroidManifest.xml:11:9-111
+46            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+46-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/debug/AndroidManifest.xml:11:19-83
+47            android:exported="false" />
+47-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/debug/AndroidManifest.xml:11:84-108
+48        <activity
+48-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:15:7-26:18
+49            android:name="com.imagefiltering.MainActivity"
+49-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:16:9-37
+50            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+50-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:18:9-118
+51            android:exported="true"
+51-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:21:9-32
+52            android:label="@string/app_name"
+52-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:17:9-41
+53            android:launchMode="singleTask"
+53-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:19:9-40
+54            android:windowSoftInputMode="adjustResize" >
+54-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:20:9-51
+55            <intent-filter>
+55-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:22:9-25:25
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:23:13-65
+56-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:23:21-62
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:24:13-73
+58-->/Users/theonetech/Desktop/Projects/imageFiltering/android/app/src/main/AndroidManifest.xml:24:23-70
+59            </intent-filter>
+60        </activity>
+61
+62        <provider
+62-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+63            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+63-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-94
+64            android:authorities="com.imagefiltering.provider"
+64-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+65            android:exported="false"
+65-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+66            android:grantUriPermissions="true" >
+66-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+67            <meta-data
+67-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:78
+68                android:name="android.support.FILE_PROVIDER_PATHS"
+68-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+69                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+69-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-75
+70        </provider>
+71
+72        <activity
+72-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+73            android:name="com.yalantis.ucrop.UCropActivity"
+73-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+74            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+74-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+75
+76        <provider
+76-->[:react-native-image-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+77            android:name="com.imagepicker.ImagePickerProvider"
+77-->[:react-native-image-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+78            android:authorities="com.imagefiltering.imagepickerprovider"
+78-->[:react-native-image-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+79            android:exported="false"
+79-->[:react-native-image-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+80            android:grantUriPermissions="true" >
+80-->[:react-native-image-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+81            <meta-data
+81-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:78
+82                android:name="android.support.FILE_PROVIDER_PATHS"
+82-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+83                android:resource="@xml/imagepicker_provider_paths" />
+83-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-75
+84        </provider>
+85        <provider
+85-->[:rn-fetch-blob] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+86            android:name="com.RNFetchBlob.Utils.FileProvider"
+86-->[:rn-fetch-blob] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+87            android:authorities="com.imagefiltering.provider"
+87-->[:rn-fetch-blob] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+88            android:exported="false"
+88-->[:rn-fetch-blob] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+89            android:grantUriPermissions="true" >
+89-->[:rn-fetch-blob] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+90            <meta-data
+90-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:78
+91                android:name="android.support.FILE_PROVIDER_PATHS"
+91-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+92                android:resource="@xml/provider_paths" />
+92-->[:react-native-image-crop-picker] /Users/theonetech/Desktop/Projects/imageFiltering/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-75
+93        </provider>
+94        <provider
+94-->[androidx.emoji2:emoji2:1.0.0] /Users/theonetech/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.0.0] /Users/theonetech/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+96            android:authorities="com.imagefiltering.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.0.0] /Users/theonetech/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.0.0] /Users/theonetech/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.0.0] /Users/theonetech/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.0.0] /Users/theonetech/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.0.0] /Users/theonetech/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/theonetech/.gradle/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/theonetech/.gradle/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/theonetech/.gradle/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+104        </provider>
+105    </application>
+106
+107</manifest>
